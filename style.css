@@ -1,13 +1,47 @@
 .button{
   height: 50px;
   width: 200px;
-  padding: 20px;
 }
 html, body {
     height: 100%;
     box-sizing: border-box;
+    font-family: fantasy;
+    font-size: 14px;
+}
+.logo{
+  font-size: 50px;
+  color: white;
+  margin-bottom: 15px;
+}
+.tagline{
+  font-size: 25px;
+  color: white;
+}
+.button{
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover{
+  background: springgreen;
+
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
+}
+body{
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main{
+  width: 550px;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
