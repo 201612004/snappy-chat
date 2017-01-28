@@ -17,6 +17,29 @@ html, body {
   font-size: 25px;
   color: white;
 }
+@keyframes fadeIn{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.animate {
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+
+.my-element {
+    opacity: 0;
+}
 .button{
   background-color: blueviolet;
   color: white;
