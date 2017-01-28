@@ -59,7 +59,8 @@ body.homepage{
   color: black;
 }
 .user-info{
-  background: #E6EE9C;
+  background: purple;
+  font-size: 1.5em;
   padding: 20px;
   border-bottom: solid 1px white;
 }
@@ -94,10 +95,10 @@ body.homepage{
   font-weight: bold;
 }
 .messages{
-  background: white;
+  background: #D4E157;
   height: 70%;
   overflow: auto;
-  
+
 }
 .message{
   background: #F48FB1;
