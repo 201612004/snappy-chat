@@ -4,7 +4,7 @@
     <title>Snappy</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto?selection.family=Roboto" />
+    <link href="https://fonts.google.com/specimen/Roboto?selection.family=Roboto"/>
   </head>
   <body class="homepage">
     <div class="main">
@@ -12,7 +12,22 @@
       <p class="tagline">
         An instant chat plateform
       </p>
-      <button class="button">Sign in with Google</button>
+      <button id="signIn-Button" class="button">Sign in with Google</button>
     </div>
+
+<script src="https://www.gstatic.com/firebasejs/3.6.7/firebase.js"></script>
+<script>
+// Initialize Firebase
+var config = {
+  apiKey: "AIzaSyCluDSYIX9mJnjq_p8sLwgF017HrmAdWnc",
+  authDomain: "snappychat-1c14e.firebaseapp.com",
+  databaseURL: "https://snappychat-1c14e.firebaseio.com",
+  storageBucket: "snappychat-1c14e.appspot.com",
+  messagingSenderId: "539000824389"
+};
+firebase.initializeApp(config);
+</script>
+      <script type="text/javascript" src="function.js"></script>
+    <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
